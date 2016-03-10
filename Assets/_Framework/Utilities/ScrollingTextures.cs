@@ -3,6 +3,7 @@ using System.Collections;
 
 namespace AndysUnityFramework
 {
+    [RequireComponent(typeof(Renderer))]
     public class ScrollingTextures : MonoBehaviour
     {
         public enum TextureType
